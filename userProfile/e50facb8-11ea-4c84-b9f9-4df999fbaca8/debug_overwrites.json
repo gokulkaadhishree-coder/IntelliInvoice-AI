@@ -1,0 +1,75 @@
+{
+  "docVersion": "1.0.0",
+  "tenants": [
+    {
+      "tenantKey": "6275390b-7891-47e4-8666-536a3a498dc5",
+      "resources": [
+        {
+          "solutionResourceKey": "e3d08a82-fe2b-4a25-fb4c-08df1efdf339",
+          "reprovisioningIndex": 0,
+          "overwrite": {
+            "resourceKey": "e3d08a82-fe2b-4a25-fb4c-08df1efdf339",
+            "resourceName": "vendor_index",
+            "folderKey": "e435c65d-2218-4e48-beb3-dbbc10509f4f",
+            "folderFullyQualifiedName": "Shared",
+            "folderPath": "e435c65d-2218-4e48-beb3-dbbc10509f4f",
+            "type": "Reference",
+            "kind": "index"
+          }
+        },
+        {
+          "solutionResourceKey": "84d327ef-f18f-42cd-9c9f-cd7776687c1f",
+          "reprovisioningIndex": 0,
+          "overwrite": {
+            "resourceKey": "84d327ef-f18f-42cd-9c9f-cd7776687c1f",
+            "resourceName": "vendor_contract",
+            "folderKey": "e435c65d-2218-4e48-beb3-dbbc10509f4f",
+            "folderFullyQualifiedName": "Shared",
+            "folderPath": "e435c65d-2218-4e48-beb3-dbbc10509f4f",
+            "type": "Reference",
+            "kind": "bucket"
+          }
+        },
+        {
+          "solutionResourceKey": "26dd77d3-a13a-4906-a83c-4530826b7c3a",
+          "reprovisioningIndex": 0,
+          "overwrite": {
+            "resourceKey": "26dd77d3-a13a-4906-a83c-4530826b7c3a",
+            "resourceName": "adhishreegokulka05@gmail.com",
+            "folderKey": "650d947a-9c43-4d4c-8c2a-c3afecedfafc",
+            "folderFullyQualifiedName": "adhishreegokulka05@gmail.com\u0027s workspace",
+            "folderPath": "4158d4c6-20d1-4188-a7ce-577c53019587.650d947a-9c43-4d4c-8c2a-c3afecedfafc",
+            "type": "Reference",
+            "kind": "connection"
+          }
+        },
+        {
+          "solutionResourceKey": "9017a9e6-7205-431f-a189-ab8ea39084f0",
+          "reprovisioningIndex": 0,
+          "overwrite": {
+            "resourceKey": "9017a9e6-7205-431f-a189-ab8ea39084f0",
+            "resourceName": "adhishreegokulka05@gmail.com",
+            "folderKey": "650d947a-9c43-4d4c-8c2a-c3afecedfafc",
+            "folderFullyQualifiedName": "adhishreegokulka05@gmail.com\u0027s workspace",
+            "folderPath": "4158d4c6-20d1-4188-a7ce-577c53019587.650d947a-9c43-4d4c-8c2a-c3afecedfafc",
+            "type": "Reference",
+            "kind": "connection"
+          }
+        },
+        {
+          "solutionResourceKey": "ab58cf3f-e0da-4fc2-9d01-c8c165d429aa",
+          "reprovisioningIndex": 0,
+          "overwrite": {
+            "resourceKey": "5a5df802-ea35-43a3-a7e7-56bc6b55ba44",
+            "resourceName": "UiPath GenAI Activities",
+            "folderKey": "650d947a-9c43-4d4c-8c2a-c3afecedfafc",
+            "folderFullyQualifiedName": "adhishreegokulka05@gmail.com\u0027s workspace",
+            "folderPath": "4158d4c6-20d1-4188-a7ce-577c53019587.650d947a-9c43-4d4c-8c2a-c3afecedfafc",
+            "type": "Reference",
+            "kind": "connection"
+          }
+        }
+      ]
+    }
+  ]
+}

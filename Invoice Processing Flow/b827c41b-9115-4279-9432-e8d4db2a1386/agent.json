@@ -1,0 +1,71 @@
+{
+  "version": "1.1.0",
+  "settings": {
+    "model": "anthropic.claude-sonnet-4-6",
+    "maxTokens": 16384,
+    "temperature": 0.06,
+    "engine": "basic-v2",
+    "maxIterations": 25,
+    "mode": "standard"
+  },
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "discrepancyInvestigationAgent1__output": {
+        "type": "object",
+        "description": "Bound from $vars.discrepancyInvestigationAgent1.output"
+      }
+    }
+  },
+  "outputSchema": {
+    "type": "object",
+    "required": [
+      "body"
+    ],
+    "properties": {
+      "body": {
+        "type": "string"
+      }
+    }
+  },
+  "metadata": {
+    "storageVersion": "50.0.0",
+    "isConversational": false,
+    "showProjectCreationExperience": false
+  },
+  "type": "lowCode",
+  "guardrails": [],
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an assistant tasked with responding to an email. Generate an appropriate concise and professional body of the email response in html format using data added in user prompt",
+      "contentTokens": [
+        {
+          "type": "simpleText",
+          "rawString": "You are an assistant tasked with responding to an email. Generate an appropriate concise and professional body of the email response in html format using data added in user prompt"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "Please provide body in string  \t\n{{input.discrepancyInvestigationAgent1__output}}\t",
+      "contentTokens": [
+        {
+          "type": "simpleText",
+          "rawString": "Please provide body in string  \t\n"
+        },
+        {
+          "type": "variable",
+          "rawString": "input.discrepancyInvestigationAgent1__output"
+        },
+        {
+          "type": "simpleText",
+          "rawString": "\t"
+        }
+      ]
+    }
+  ],
+  "projectId": "b827c41b-9115-4279-9432-e8d4db2a1386",
+  "id": "b827c41b-9115-4279-9432-e8d4db2a1386",
+  "name": "Email Draft Autonomous agent"
+}

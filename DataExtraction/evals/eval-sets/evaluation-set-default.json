@@ -1,0 +1,36 @@
+{
+  "fileName": "evaluation-set-default.json",
+  "id": "93e61368-2426-434e-b95f-695f1001f0bf",
+  "name": "Default Evaluation Set",
+  "batchSize": 10,
+  "evaluatorRefs": [
+    "7dbbc90b-e281-4dfc-bfde-b118787f3092"
+  ],
+  "evaluations": [
+    {
+      "id": "db34e0ef-c070-40c1-9a80-aef1da0ebf69",
+      "name": "Debug Run 7/24/2026, 8:07:51 PM",
+      "inputs": {
+        "InvoiceText": "Alphabet 1600 AMPHITHEATRE PARKWAY · MOUNTAIN VIEW, CA  Invoice ALPH-2026-04812  ISSUE DATE 2026-05-15  DUE DATE 2026-06-14  PO REFERENCE PO-2026-09421  CURRENCY USD  SERVICE                                                    QTY    RATE     AMOUNT Google Workspace Business Plus - monthly seat license GWS-BIZ-PLUS                                               50     $18.00   $900.00  Subtotal                                                                    $900.00  Total USD                                                                   $900.00  Remit payment to: 1600 Amphitheatre Parkway, Mountain View, CA 94043 · Questions? billing@google.com"
+      },
+      "expectedOutput": {
+        "content": "{\n  \"invoice_number\": \"ALPH-2026-04812\",\n  \"issue_date\": \"2026-05-15\",\n  \"due_date\": \"2026-06-14\",\n  \"po_reference\": \"PO-2026-09421\",\n  \"currency\": \"USD\",\n  \"vendor_name\": \"Alphabet\",\n  \"vendor_address\": \"1600 AMPHITHEATRE PARKWAY · MOUNTAIN VIEW, CA\",\n  \"remit_to_address\": \"1600 Amphitheatre Parkway, Mountain View, CA 94043\",\n  \"contact_email\": \"billing@google.com\",\n  \"line_items\": [\n    {\n      \"description\": \"Google Workspace Business Plus - monthly seat license\",\n      \"sku_or_code\": \"GWS-BIZ-PLUS\",\n      \"quantity\": 50,\n      \"unit_rate\": 18,\n      \"amount\": 900\n    }\n  ],\n  \"subtotal\": 900,\n  \"tax\": null,\n  \"total\": 900,\n  \"extraction_notes\": \"No tax line present in source; tax set to null.\"\n}"
+      },
+      "expectedAgentBehavior": "",
+      "simulationInstructions": "",
+      "simulateInput": false,
+      "inputGenerationInstructions": "",
+      "simulateTools": false,
+      "evalSetId": "93e61368-2426-434e-b95f-695f1001f0bf",
+      "createdAt": "2026-07-24T14:37:51.476Z",
+      "updatedAt": "2026-07-24T14:37:51.476Z",
+      "source": "firstSuccessfulRun"
+    }
+  ],
+  "modelSettings": [],
+  "createdAt": "2026-07-24T13:51:36.035Z",
+  "updatedAt": "2026-07-24T14:37:51.476Z",
+  "agentMemoryEnabled": false,
+  "agentMemorySettings": [],
+  "lineByLineEvaluation": false
+}

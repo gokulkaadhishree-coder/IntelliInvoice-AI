@@ -1,0 +1,12 @@
+{
+  "ProjectAppMetadata": {
+    "MainPage_Reject_click.xaml": {
+      "AppFormId": "idef0a81c4ebf3493c9e42c3a3da31eee2",
+      "IsAppQueryBuilder": null
+    },
+    "MainPage_Approve_click.xaml": {
+      "AppFormId": "idef0a81c4ebf3493c9e42c3a3da31eee2",
+      "IsAppQueryBuilder": null
+    }
+  }
+}

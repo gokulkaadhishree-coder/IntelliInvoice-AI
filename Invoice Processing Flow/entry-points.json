@@ -1,0 +1,48 @@
+{
+  "$schema": "https://cloud.uipath.com/draft/2024-12/entry-point",
+  "$id": "entry-points.json",
+  "entryPoints": [
+    {
+      "filePath": "content/new.bpmn#emailReceived1",
+      "uniqueId": "013dbc1c-91b1-4953-a83f-d2d5bca71223",
+      "type": "processorchestration",
+      "input": {
+        "type": "object",
+        "properties": {}
+      },
+      "output": {
+        "type": "object",
+        "properties": {}
+      },
+      "displayName": "Email Received"
+    },
+    {
+      "filePath": "content/b827c41b-9115-4279-9432-e8d4db2a1386/agent.json",
+      "uniqueId": "b827c41b-9115-4279-9432-e8d4db2a1386",
+      "type": "agent",
+      "targetRuntime": "pythonAgent",
+      "input": {
+        "type": "object",
+        "properties": {
+          "discrepancyInvestigationAgent1__output": {
+            "type": "object",
+            "description": "Bound from $vars.discrepancyInvestigationAgent1.output"
+          }
+        }
+      },
+      "output": {
+        "type": "object",
+        "required": [
+          "body"
+        ],
+        "properties": {
+          "body": {
+            "type": "string"
+          }
+        }
+      },
+      "displayName": "Email Draft Autonomous agent",
+      "hiddenAtDesignTime": true
+    }
+  ]
+}

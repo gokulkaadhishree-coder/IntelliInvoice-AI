@@ -1,0 +1,38 @@
+{
+  "docVersion": "1.0.0",
+  "resource": {
+    "name": "vendor_index",
+    "kind": "index",
+    "apiVersion": "ecs.uipath.com/v2",
+    "isOverridable": true,
+    "dependencies": [
+      {
+        "name": "vendor_contract",
+        "kind": "Bucket"
+      }
+    ],
+    "runtimeDependencies": [],
+    "folders": [
+      {
+        "fullyQualifiedName": "solution_folder"
+      }
+    ],
+    "spec": {
+      "name": "vendor_index",
+      "description": "",
+      "storageBucketReference": {
+        "name": "vendor_contract",
+        "key": "84d327ef-f18f-42cd-9c9f-cd7776687c1f",
+        "folderKey": "e435c65d-2218-4e48-beb3-dbbc10509f4f"
+      },
+      "fileNameGlob": "All",
+      "dataSourceType": "StorageBucket",
+      "includeSubfolders": true,
+      "ingestionType": "Basic",
+      "encrypted": false
+    },
+    "locks": [],
+    "key": "e3d08a82-fe2b-4a25-fb4c-08df1efdf339",
+    "files": []
+  }
+}

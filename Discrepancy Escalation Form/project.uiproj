@@ -1,0 +1,10 @@
+{
+  "ProjectType": "WebApp",
+  "WebAppSettings": {
+    "AppId": "ID02c031c6d41e49aea12caa3a74d92fc6",
+    "IsCoreProject": true
+  },
+  "Name": "Discrepancy Escalation Form",
+  "Description": null,
+  "MainFile": "Main.xaml"
+}

@@ -1,0 +1,23 @@
+{
+  "docVersion": "1.0.0",
+  "resource": {
+    "name": "Discrepancy Escalation Form",
+    "kind": "package",
+    "apiVersion": "orchestrator.uipath.com/v1",
+    "projectKey": "2987663d-266b-44f8-83ee-3a8d07859ebf",
+    "isOverridable": true,
+    "dependencies": [],
+    "runtimeDependencies": [],
+    "folders": [
+      {
+        "fullyQualifiedName": "solution_folder"
+      }
+    ],
+    "spec": {
+      "name": "Discrepancy Escalation Form"
+    },
+    "locks": [],
+    "key": "dbad2088-bc50-4827-801a-0d9f5878f542",
+    "files": []
+  }
+}

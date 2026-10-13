@@ -1,0 +1,40 @@
+{
+  "docVersion": "1.0.0",
+  "resource": {
+    "name": "Discrepancy Escalation Form",
+    "kind": "app",
+    "type": "workflow Action",
+    "apiVersion": "apps.uipath.com/v1",
+    "projectKey": "2987663d-266b-44f8-83ee-3a8d07859ebf",
+    "isOverridable": true,
+    "dependencies": [
+      {
+        "name": "Discrepancy Escalation Form",
+        "kind": "appVersion"
+      },
+      {
+        "name": "Discrepancy Escalation Form",
+        "kind": "process"
+      }
+    ],
+    "runtimeDependencies": [],
+    "folders": [
+      {
+        "fullyQualifiedName": "solution_folder"
+      }
+    ],
+    "spec": {
+      "name": "Discrepancy Escalation Form",
+      "type": "workflow Action",
+      "appVersionRef": {
+        "key": "2eb43b8b-467d-497b-b18d-d7ee427ddb03"
+      },
+      "codeBehindProcess": {
+        "key": "7b4ebfba-8b61-47e4-ab75-b9d0b7ce8052"
+      }
+    },
+    "locks": [],
+    "key": "f9a3cd50-c214-4264-8598-1e27f4a7a7cd",
+    "files": []
+  }
+}

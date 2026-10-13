@@ -1,0 +1,33 @@
+{
+  "DocVersion": "1.0.0",
+  "StudioMinVersion": "2025.04.0",
+  "SolutionId": "f6f75956-4177-49ec-ba9e-08df293a60e7",
+  "Projects": [
+    {
+      "Type": "Agent",
+      "ProjectRelativePath": "Discrepancy Investigation Agent/project.uiproj",
+      "Id": "8f2d3aea-09f5-45a7-88dc-d99d7ba2dda6"
+    },
+    {
+      "Type": "Agent",
+      "ProjectRelativePath": "DataExtraction/project.uiproj",
+      "Id": "4307fee5-716d-4780-92b4-fb3b0a68e6a1"
+    },
+    {
+      "Type": "Agent",
+      "ProjectRelativePath": "Vendor Research Agent/project.uiproj",
+      "Id": "aff912b7-fc91-43cd-9ba4-6093f385f4ef"
+    },
+    {
+      "Type": "Flow",
+      "ProjectRelativePath": "Invoice Processing Flow/project.uiproj",
+      "Id": "b1e3a297-e4a2-48a3-ad1f-daee8bfdb64c"
+    },
+    {
+      "Type": "WebApp",
+      "ProjectRelativePath": "Discrepancy Escalation Form/project.uiproj",
+      "Id": "2987663d-266b-44f8-83ee-3a8d07859ebf"
+    }
+  ],
+  "AutomationHubIdeaUrl": null
+}

@@ -1,0 +1,66 @@
+{
+  "docVersion": "1.0.0",
+  "tenants": [
+    {
+      "tenantKey": "47dd0200-ea1c-44f1-a751-8929b1f07c42",
+      "resources": [
+        {
+          "solutionResourceKey": "90779106-1360-4111-b68a-7b078e617381",
+          "reprovisioningIndex": 0,
+          "overwrite": {
+            "resourceKey": "90779106-1360-4111-b68a-7b078e617381",
+            "resourceName": "captainautomation29@gmail.com",
+            "folderKey": "23059634-75e8-4300-a6d6-b7fb239b97b9",
+            "folderFullyQualifiedName": "darshan29sable@gmail.com\u0027s workspace",
+            "folderPath": "ee70f4d2-7fe9-4fb7-a897-5168a149c453.23059634-75e8-4300-a6d6-b7fb239b97b9",
+            "type": "Reference",
+            "kind": "connection"
+          }
+        },
+        {
+          "solutionResourceKey": "7d5b7e16-922a-4df4-afba-cd2f96724ccc",
+          "reprovisioningIndex": 0,
+          "overwrite": {
+            "resourceKey": "7d5b7e16-922a-4df4-afba-cd2f96724ccc",
+            "resourceName": "darshan29sable@gmail.com",
+            "folderKey": "23059634-75e8-4300-a6d6-b7fb239b97b9",
+            "folderFullyQualifiedName": "darshan29sable@gmail.com\u0027s workspace",
+            "folderPath": "ee70f4d2-7fe9-4fb7-a897-5168a149c453.23059634-75e8-4300-a6d6-b7fb239b97b9",
+            "type": "Reference",
+            "kind": "connection"
+          }
+        },
+        {
+          "solutionResourceKey": "ab58cf3f-e0da-4fc2-9d01-c8c165d429aa",
+          "reprovisioningIndex": 0,
+          "overwrite": {
+            "resourceKey": "ab58cf3f-e0da-4fc2-9d01-c8c165d429aa",
+            "resourceName": "UiPath GenAI Activities",
+            "folderKey": "23059634-75e8-4300-a6d6-b7fb239b97b9",
+            "folderFullyQualifiedName": "darshan29sable@gmail.com\u0027s workspace",
+            "folderPath": "ee70f4d2-7fe9-4fb7-a897-5168a149c453.23059634-75e8-4300-a6d6-b7fb239b97b9",
+            "type": "Reference",
+            "kind": "connection"
+          }
+        },
+        {
+          "solutionResourceKey": "20040428-0f09-471e-00f7-08dee96ca183",
+          "reprovisioningIndex": 0,
+          "overwrite": {
+            "resourceKey": "b9d30756-bdd6-40f1-0125-08dee96ca183",
+            "resourceName": "vendor_contracts",
+            "folderKey": "43aa7982-cdb6-4b3d-8437-c5bfa1714354",
+            "folderFullyQualifiedName": "Shared",
+            "folderPath": "43aa7982-cdb6-4b3d-8437-c5bfa1714354",
+            "type": "Reference",
+            "kind": "index"
+          }
+        },
+        {
+          "solutionResourceKey": "8c16fe7b-cc89-4ed9-a8a8-569ef17c59ec",
+          "reprovisioningIndex": 1
+        }
+      ]
+    }
+  ]
+}

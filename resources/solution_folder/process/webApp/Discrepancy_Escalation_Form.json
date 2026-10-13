@@ -1,0 +1,50 @@
+{
+  "docVersion": "1.0.0",
+  "resource": {
+    "name": "Discrepancy Escalation Form",
+    "kind": "process",
+    "type": "webApp",
+    "apiVersion": "orchestrator.uipath.com/v1",
+    "projectKey": "2987663d-266b-44f8-83ee-3a8d07859ebf",
+    "isOverridable": true,
+    "dependencies": [
+      {
+        "name": "Discrepancy Escalation Form",
+        "kind": "package"
+      }
+    ],
+    "runtimeDependencies": [],
+    "folders": [
+      {
+        "fullyQualifiedName": "solution_folder"
+      }
+    ],
+    "spec": {
+      "type": "WebApp",
+      "name": "Discrepancy Escalation Form",
+      "package": {
+        "key": "dbad2088-bc50-4827-801a-0d9f5878f542"
+      },
+      "packageName": "USCKIIT.DEMO.webApp.Discrepancy.Escalation.Form",
+      "jobPriority": "Medium",
+      "hiddenForAttendedUser": true,
+      "alwaysRunning": true,
+      "autoStartProcess": false,
+      "jobRecording": "Disabled",
+      "targetFrameworkValue": "Portable",
+      "duration": 40,
+      "frequency": 500,
+      "quality": 100,
+      "remoteControlAccess": "None",
+      "robotSize": "Automatic",
+      "retentionAction": "Delete",
+      "retentionPeriod": 30,
+      "staleRetentionAction": "Delete",
+      "staleRetentionPeriod": 180,
+      "tags": []
+    },
+    "locks": [],
+    "key": "7b4ebfba-8b61-47e4-ab75-b9d0b7ce8052",
+    "files": []
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://cloud.uipath.com/draft/2024-12/package-descriptor",
+  "files": {
+    "operate.json": "content/operate.json",
+    "entry-points.json": "content/entry-points.json",
+    "bindings.json": "content/bindings_v2.json",
+    "new.bpmn": "content/new.bpmn",
+    "new.flow": "flow_files/new.flow",
+    "b827c41b-9115-4279-9432-e8d4db2a1386/agent.json": "content/b827c41b-9115-4279-9432-e8d4db2a1386/agent.json"
+  }
+}

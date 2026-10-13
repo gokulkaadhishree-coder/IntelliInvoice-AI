@@ -1,0 +1,44 @@
+{
+  "fileName": "evaluation-set-default.json",
+  "id": "13c43d3f-87d6-4fb5-aa68-4814c378b964",
+  "name": "Default Evaluation Set",
+  "batchSize": 10,
+  "evaluatorRefs": [
+    "1fddd2a8-9835-4c68-ac96-f46b5aefbb0b"
+  ],
+  "evaluations": [
+    {
+      "id": "6675ab16-aa29-4bd9-9230-c70e88a54394",
+      "name": "Debug Run 7/29/2026, 12:11:31 AM",
+      "inputs": {
+        "invoiceVendorName": "Apex manufacturing",
+        "poVendorName": "UiParth"
+      },
+      "expectedOutput": {
+        "relationship": "look_alike_or_typosquat",
+        "flag": "reject",
+        "confidence": "low",
+        "reasoning": "The vendor names do not match lexically or corporately. Searches for the two names together returned no results linking \"Apex manufacturing\" and \"UiParth.\" Searches for \"UiParth\" produced mostly misspellings and user-generated references to \"UiPath,\" while UiPath’s official website and investor relations site show UiPath is a separate established software company. Because \"UiParth\" differs from \"UiPath\" by one character and no authoritative evidence shows \"UiParth\" is a legitimate corporate entity related to the PO vendor, this is most consistent with a look-alike or typosquat-style mismatch rather than a legitimate corporate relationship.",
+        "sources": [
+          "https://www.uipath.com/",
+          "https://ir.uipath.com/"
+        ]
+      },
+      "expectedAgentBehavior": "",
+      "simulationInstructions": "",
+      "simulateInput": false,
+      "inputGenerationInstructions": "",
+      "simulateTools": false,
+      "evalSetId": "13c43d3f-87d6-4fb5-aa68-4814c378b964",
+      "createdAt": "2026-07-28T18:41:31.743Z",
+      "updatedAt": "2026-07-28T18:41:31.743Z",
+      "source": "firstSuccessfulRun"
+    }
+  ],
+  "modelSettings": [],
+  "createdAt": "2026-07-26T06:19:21.282Z",
+  "updatedAt": "2026-07-28T18:41:31.743Z",
+  "agentMemoryEnabled": false,
+  "agentMemorySettings": [],
+  "lineByLineEvaluation": false
+}

@@ -1,0 +1,45 @@
+{
+  "docVersion": "1.0.0",
+  "resource": {
+    "name": "Vendor Research Agent",
+    "kind": "process",
+    "type": "agent",
+    "apiVersion": "orchestrator.uipath.com/v1",
+    "projectKey": "aff912b7-fc91-43cd-9ba4-6093f385f4ef",
+    "isOverridable": true,
+    "dependencies": [
+      {
+        "name": "Vendor Research Agent",
+        "kind": "package"
+      }
+    ],
+    "runtimeDependencies": [],
+    "folders": [
+      {
+        "fullyQualifiedName": "solution_folder"
+      }
+    ],
+    "spec": {
+      "type": "Agent",
+      "name": "Vendor Research Agent",
+      "package": {
+        "key": "82830dab-dead-47d0-ac76-caae7d263bb5"
+      },
+      "packageName": "USCKIIT.DEMO.agent.Vendor.Research.Agent",
+      "hiddenForAttendedUser": false,
+      "alwaysRunning": false,
+      "autoStartProcess": false,
+      "targetFrameworkValue": "Portable",
+      "agentMemory": false,
+      "isConversational": false,
+      "retentionAction": "Delete",
+      "retentionPeriod": 30,
+      "staleRetentionAction": "Delete",
+      "staleRetentionPeriod": 180,
+      "tags": []
+    },
+    "locks": [],
+    "key": "87fa5b12-768d-4ba8-8ddb-0c0a83b71c72",
+    "files": []
+  }
+}

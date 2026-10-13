@@ -1,0 +1,140 @@
+{
+  "version": "2.0",
+  "resources": [
+    {
+      "resource": "process",
+      "key": "parthdoshi180@gmail.com's workspace/Debug_ABCDPune.DataExtraction",
+      "id": "processparthdoshi180@gmail.com's workspace/Debug_ABCDPune.DataExtraction",
+      "value": {
+        "folderKey": {
+          "defaultValue": "ab459e1e-c36b-4ad4-b4ec-2d486fd1cb08",
+          "isExpression": false,
+          "displayName": "Folder key"
+        },
+        "folderPath": {
+          "defaultValue": "parthdoshi180@gmail.com's workspace/Debug_ABCDPune",
+          "isExpression": false,
+          "displayName": "Folder path"
+        },
+        "name": {
+          "defaultValue": "DataExtraction",
+          "isExpression": false,
+          "displayName": "Process name"
+        }
+      },
+      "metadata": {
+        "ActivityName": "DataExtraction",
+        "BindingsVersion": "2.2",
+        "DisplayLabel": "name",
+        "SolutionsSupport": "true",
+        "subType": "Agent"
+      }
+    },
+    {
+      "resource": "process",
+      "key": "e6f3eeb8-c976-43dc-a074-03d28c1da004",
+      "id": "processe6f3eeb8-c976-43dc-a074-03d28c1da004",
+      "value": {
+        "folderPath": {
+          "isExpression": false,
+          "displayName": "Folder path"
+        },
+        "name": {
+          "defaultValue": "Discrepancy Investigation Agent",
+          "isExpression": false,
+          "displayName": "Process name"
+        }
+      },
+      "metadata": {
+        "ActivityName": "DataExtraction",
+        "BindingsVersion": "2.2",
+        "DisplayLabel": "name",
+        "SolutionsSupport": "true",
+        "subType": "Agent"
+      }
+    },
+    {
+      "resource": "connection",
+      "key": "26dd77d3-a13a-4906-a83c-4530826b7c3a",
+      "id": "connection26dd77d3-a13a-4906-a83c-4530826b7c3a",
+      "value": {
+        "ConnectionId": {
+          "defaultValue": "26dd77d3-a13a-4906-a83c-4530826b7c3a",
+          "isExpression": false,
+          "displayName": "uipath-google-gmail connection"
+        }
+      },
+      "metadata": {
+        "ActivityName": "Email Received",
+        "BindingsVersion": "2.2",
+        "DisplayLabel": "uipath-google-gmail connection",
+        "UseConnectionService": "true",
+        "Connector": "uipath-google-gmail"
+      }
+    },
+    {
+      "resource": "connection",
+      "key": "9017a9e6-7205-431f-a189-ab8ea39084f0",
+      "id": "connection9017a9e6-7205-431f-a189-ab8ea39084f0",
+      "value": {
+        "ConnectionId": {
+          "defaultValue": "9017a9e6-7205-431f-a189-ab8ea39084f0",
+          "isExpression": false,
+          "displayName": "uipath-uipath-dataservice connection"
+        }
+      },
+      "metadata": {
+        "ActivityName": "Query PO Entity Records",
+        "BindingsVersion": "2.2",
+        "DisplayLabel": "uipath-uipath-dataservice connection",
+        "UseConnectionService": "true",
+        "Connector": "uipath-uipath-dataservice"
+      }
+    },
+    {
+      "resource": "EventTrigger",
+      "key": "26dd77d3-a13a-4906-a83c-4530826b7c3a_013dbc1c-91b1-4953-a83f-d2d5bca71223",
+      "id": "EventTrigger26dd77d3-a13a-4906-a83c-4530826b7c3a_013dbc1c-91b1-4953-a83f-d2d5bca71223",
+      "value": {
+        "ConnectionId": {
+          "defaultValue": "26dd77d3-a13a-4906-a83c-4530826b7c3a",
+          "isExpression": false
+        },
+        "EntryPointUniqueId": {
+          "defaultValue": "013dbc1c-91b1-4953-a83f-d2d5bca71223",
+          "isExpression": false
+        }
+      },
+      "metadata": {
+        "UseConnectionService": "true",
+        "Connector": "uipath-google-gmail",
+        "ActivityName": "Email Received",
+        "BindingsVersion": "2.2",
+        "ObjectName": "Message",
+        "Operation": "EMAIL_RECEIVED",
+        "FilterExpression": "(ParentFolders[?ID=='INBOX']) && ((contains(Subject,'Invoice')))"
+      }
+    },
+    {
+      "resource": "Property",
+      "key": "emailReceived1_013dbc1c-91b1-4953-a83f-d2d5bca71223",
+      "value": {
+        "ParentFolders[*].ID": {
+          "defaultValue": "INBOX",
+          "isExpression": false
+        }
+      },
+      "activityDisplayName": "connector-activity",
+      "metadata": {
+        "ActivityName": "Email Received",
+        "BindingsVersion": "2.2",
+        "ObjectName": "Message",
+        "Operation": "EMAIL_RECEIVED",
+        "ParentResourceKey": "EventTrigger.26dd77d3-a13a-4906-a83c-4530826b7c3a_013dbc1c-91b1-4953-a83f-d2d5bca71223",
+        "TriggerCreateParameters": "ParentFolders[*].ID",
+        "DebugQueryParameters": "ParentFolders[*].ID"
+      },
+      "id": "Property_013dbc1c-91b1-4953-a83f-d2d5bca71223"
+    }
+  ]
+}

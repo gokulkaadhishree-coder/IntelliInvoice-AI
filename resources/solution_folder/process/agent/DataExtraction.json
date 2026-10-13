@@ -1,0 +1,45 @@
+{
+  "docVersion": "1.0.0",
+  "resource": {
+    "name": "DataExtraction",
+    "kind": "process",
+    "type": "agent",
+    "apiVersion": "orchestrator.uipath.com/v1",
+    "projectKey": "4307fee5-716d-4780-92b4-fb3b0a68e6a1",
+    "isOverridable": true,
+    "dependencies": [
+      {
+        "name": "DataExtraction",
+        "kind": "package"
+      }
+    ],
+    "runtimeDependencies": [],
+    "folders": [
+      {
+        "fullyQualifiedName": "solution_folder"
+      }
+    ],
+    "spec": {
+      "type": "Agent",
+      "name": "DataExtraction",
+      "package": {
+        "key": "1297e9d7-38be-450d-92b3-63f50a60a96a"
+      },
+      "packageName": "USCKIIT.DEMO.agent.DataExtraction",
+      "hiddenForAttendedUser": false,
+      "alwaysRunning": false,
+      "autoStartProcess": false,
+      "targetFrameworkValue": "Portable",
+      "agentMemory": false,
+      "isConversational": false,
+      "retentionAction": "Delete",
+      "retentionPeriod": 30,
+      "staleRetentionAction": "Delete",
+      "staleRetentionPeriod": 180,
+      "tags": []
+    },
+    "locks": [],
+    "key": "290d62e6-046b-450f-b622-b5a8615f99cd",
+    "files": []
+  }
+}

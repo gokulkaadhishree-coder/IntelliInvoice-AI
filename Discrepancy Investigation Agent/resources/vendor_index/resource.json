@@ -1,0 +1,25 @@
+{
+  "$resourceType": "context",
+  "id": "d2ac7b11-d0da-4369-a584-1c1e497be38d",
+  "referenceKey": "e3d08a82-fe2b-4a25-fb4c-08df1efdf339",
+  "name": "vendor_index",
+  "description": "",
+  "contextType": "index",
+  "folderPath": "solution_folder",
+  "indexName": "vendor_index",
+  "settings": {
+    "query": {
+      "description": "The query for the Semantic strategy.",
+      "variant": "dynamic"
+    },
+    "threshold": 0,
+    "resultCount": 3,
+    "retrievalMode": "semantic",
+    "folderPathPrefix": {
+      "variant": "static"
+    },
+    "fileExtension": {
+      "value": "All"
+    }
+  }
+}
